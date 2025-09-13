@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import HeroSection from "@/components/hero-section";
-import QuickTopics from "@/components/quick-topics";
 import LearnSection from "@/components/learn-section";
 import KnowMoreSection from "@/components/know-more-section";
 import GetHelpSection from "@/components/get-help-section";
@@ -12,7 +11,6 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <QuickTopics />
         <LearnSection />
         <KnowMoreSection />
         <GetHelpSection />

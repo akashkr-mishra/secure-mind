@@ -23,8 +23,8 @@ export default function LearnSection() {
     return IconComponent ? <IconComponent className="h-8 w-8" /> : <Shield className="h-8 w-8" />;
   };
 
-  // Show first 4 modules in detail
-  const featuredModules = learningModules.slice(0, 4);
+  // Show all 8 modules in detail
+  const featuredModules = learningModules;
 
   return (
     <section id="learn" className="section-transition py-16 bg-muted/30">
@@ -34,7 +34,7 @@ export default function LearnSection() {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">{t("learningModulesSubtitle")}</p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
           {featuredModules.map((module) => (
             <div key={module.id} className="bg-card rounded-xl p-8 shadow-sm border border-border">
               <div className="flex items-start space-x-4 mb-6">
@@ -49,18 +49,18 @@ export default function LearnSection() {
               
               <div className="space-y-4">
                 <div className="bg-muted/50 rounded-lg p-4">
-                  <h4 className="font-semibold text-foreground mb-2">💡 Simple Explanation</h4>
+                  <h4 className="font-semibold text-foreground mb-2">💡 {t("simpleExplanation")}</h4>
                   <p className="text-sm text-muted-foreground">{module.explanation[language]}</p>
                 </div>
                 
                 <div className="bg-accent/10 rounded-lg p-4">
-                  <h4 className="font-semibold text-foreground mb-2">🌟 Real Example</h4>
+                  <h4 className="font-semibold text-foreground mb-2">🌟 {t("realExample")}</h4>
                   <p className="text-sm text-muted-foreground">{module.example[language]}</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-accent/10 rounded-lg p-3">
-                    <h5 className="font-medium text-accent mb-1">✅ Do's</h5>
+                    <h5 className="font-medium text-accent mb-1">✅ {t("dos")}</h5>
                     <ul className="text-xs text-muted-foreground space-y-1">
                       {module.dos[language].map((item, index) => (
                         <li key={index}>• {item}</li>
@@ -68,7 +68,7 @@ export default function LearnSection() {
                     </ul>
                   </div>
                   <div className="bg-destructive/10 rounded-lg p-3">
-                    <h5 className="font-medium text-destructive mb-1">❌ Don'ts</h5>
+                    <h5 className="font-medium text-destructive mb-1">❌ {t("donts")}</h5>
                     <ul className="text-xs text-muted-foreground space-y-1">
                       {module.donts[language].map((item, index) => (
                         <li key={index}>• {item}</li>

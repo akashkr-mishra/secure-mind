@@ -197,34 +197,6 @@ export const learningModules: LearningModule[] = [
     }
   },
   {
-    id: "mod-apps",
-    title: {
-      en: "Mod Applications Risks",
-      hi: "मॉड एप्लिकेशन जोखिम"
-    },
-    description: {
-      en: "Understanding the dangers of using modified or cracked applications.",
-      hi: "संशोधित या क्रैक किए गए एप्लिकेशन के उपयोग के खतरों को समझना।"
-    },
-    icon: "mobile-alt",
-    explanation: {
-      en: "Mod apps are unofficial versions of popular apps that seem free but often contain hidden malware that can steal your data or damage your device.",
-      hi: "मॉड ऐप्स लोकप्रिय ऐप्स के अनअधिकृत संस्करण हैं जो मुफ्त लगते हैं लेकिन अक्सर छुपे हुए मैलवेयर होते हैं जो आपका डेटा चुरा सकते हैं या आपके डिवाइस को नुकसान पहुंचा सकते हैं।"
-    },
-    example: {
-      en: "Anjali downloaded a 'free' version of a paid game from an unofficial website. It infected her phone with malware that stole her contact list and photos.",
-      hi: "अंजलि ने एक अनअधिकृत वेबसाइट से एक पेड गेम का 'मुफ्त' संस्करण डाउनलोड किया। इसने उसके फोन को मैलवेयर से संक्रमित कर दिया जिसने उसकी संपर्क सूची और तस्वीरें चुराईं।"
-    },
-    dos: {
-      en: ["Use official app stores", "Read app reviews", "Check app permissions"],
-      hi: ["आधिकारिक ऐप स्टोर का उपयोग करें", "ऐप समीक्षा पढ़ें", "ऐप अनुमतियों की जांच करें"]
-    },
-    donts: {
-      en: ["Download from unknown sites", "Use cracked apps", "Ignore security warnings"],
-      hi: ["अज्ञात साइटों से डाउनलोड न करें", "क्रैक किए गए ऐप्स का उपयोग न करें", "सुरक्षा चेतावनियों को नजरअंदाज न करें"]
-    }
-  },
-  {
     id: "trusted-sources",
     title: {
       en: "Trusted vs Untrusted Sources",

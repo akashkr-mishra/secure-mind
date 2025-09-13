@@ -28,6 +28,10 @@ export const translations = {
     learningModulesSubtitle: "Comprehensive cybersecurity education designed for everyone, from kids to seniors.",
     startModule: "Start This Module",
     viewAllModules: "View All 8 Modules",
+    simpleExplanation: "Simple Explanation",
+    realExample: "Real Example",
+    dos: "Do's",
+    donts: "Don'ts",
     
     // Know More
     knowMoreTitle: "Know More Resources",
@@ -82,6 +86,10 @@ export const translations = {
     learningModulesSubtitle: "बच्चों से बुजुर्गों तक सभी के लिए डिज़ाइन की गई व्यापक साइबर सुरक्षा शिक्षा।",
     startModule: "यह मॉड्यूल शुरू करें",
     viewAllModules: "सभी 8 मॉड्यूल देखें",
+    simpleExplanation: "सरल व्याख्या",
+    realExample: "वास्तविक उदाहरण",
+    dos: "करें",
+    donts: "न करें",
     
     // Know More
     knowMoreTitle: "अधिक संसाधन जानें",
