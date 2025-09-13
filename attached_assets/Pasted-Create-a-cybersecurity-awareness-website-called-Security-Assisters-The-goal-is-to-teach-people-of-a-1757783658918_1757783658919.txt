@@ -1,0 +1,116 @@
+Create a cybersecurity awareness website called Security Assisters. The goal is to teach people of any age group and language how to stay safe on the internet.
+
+🎨 Theme & Design
+
+Clean, modern design with an approachable tone.
+
+Color theme: professional but friendly (blue, white, green highlights).
+
+Responsive layout (works on desktop, mobile, tablet).
+
+Simple navigation with a top menu bar:
+
+Home
+
+Learn
+
+Know More
+
+Get Help
+
+📂 Sections
+1. Home
+
+A welcoming introduction to the site.
+
+A simple tagline like “Stay Safe, Stay Smart Online.”
+
+Quick links to key learning topics.
+
+2. Learn
+
+Educational content explained in simple, clear language (easy enough for school students, but still useful for adults). Topics include:
+
+Why internet security is important
+
+What is digital identity
+
+What are digital footprints
+
+Who are hackers
+
+What is phishing
+
+What are viruses/malware
+
+What are mod applications (risks of using modified apps)
+
+Difference between trusted vs untrusted sources
+
+What are OTPs (One Time Passwords) and why they must be kept private
+
+More expandable modules in future (like ransomware, social engineering, online scams, etc.)
+
+Each topic should have:
+
+Simple explanation
+
+Real-world example
+
+Do’s and Don’ts
+
+Interactive/visual element (optional)
+
+3. Know More
+
+Extra resources like videos, articles, infographics, and links to trusted organizations (CERT-In, Cybercrime portal, awareness campaigns).
+
+FAQs section for common security doubts.
+
+4. Get Help
+
+Contact information for different cyber cells and police services in India (and expandable globally).
+
+Emergency helplines and official complaint portals.
+
+Guidance on what to do if you are scammed, hacked, or harassed online.
+
+🌍 Languages
+
+Content must be available in English and Hindi (more languages later).
+
+A language toggle option at the top-right corner.
+
+🛠️ Technical Requirements
+
+Stack suggestion:
+
+Frontend → React (or Next.js) + TailwindCSS for fast and responsive UI.
+
+Backend → Optional; if needed for content management, use Node.js/Express. Otherwise, static content with multilingual support works fine.
+
+Database → Only if storing user queries/help requests (SQLite or MongoDB).
+
+Accessibility: Support larger fonts, screen readers, and easy navigation.
+
+SEO optimized so people searching for security awareness find it easily.
+
+🤝 Tone & Audience
+
+Audience: school kids, parents, college students, working professionals, even elderly people.
+
+Language: simple, friendly, non-technical explanations.
+
+Use infographics, icons, and examples instead of only heavy text.
+
+🎯 Deliverables
+
+A complete website structure with navigation and pages.
+
+Sample content for at least 5 learning topics (English + Hindi).
+
+“Get Help” section populated with official contacts (India as example).
+
+Dark mode/light mode toggle (optional).
+
+A roadmap for future upgrades (gamified quizzes, interactive security test, awareness posters).
