@@ -60,7 +60,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><a href="https://cybercrime.gov.in" className="text-muted-foreground hover:text-primary transition-colors">Cybercrime Portal</a></li>
               <li><a href="https://cert-in.org.in" className="text-muted-foreground hover:text-primary transition-colors">CERT-In</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Educational Videos</a></li>
+              <li><a href="https://stopncii.org/" className="text-muted-foreground hover:text-primary transition-colors">Content Removal</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Infographics</a></li>
             </ul>
           </div>
